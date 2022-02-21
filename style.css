@@ -1,11 +1,18 @@
+:root {
+    --background-color: black;
+}
+
+/** Adding color + height of our page*/
 html {
-    background: black;
+    background: var(--background-color);
     height: 100%;
     overflow: hidden;
 }
 
+/** 'margin' & 'padding' = 0 */
+/** So it will spawn the characters from the top top */
 body {
+    height: 100%;
     margin: 0;
     padding: 0;
-    height: 100%;
 }
